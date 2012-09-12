@@ -9,7 +9,7 @@ Using [MediaElement.js](http://mediaelementjs.com/) is really nice and easy but 
 It's important that 'fontawesome' come last in the list of features as it injects the icons into the buttons. Supported buttons are Play / Pause, Stop, Mute / Unmute, Fullscreen / Unfullscreen and Loop.
 
 ```js
-{ features: ['playpause','fontawesome'] }
+{ features: ['playpause', 'fontawesome'] }
 ```
 
 ```css
@@ -37,7 +37,10 @@ It's important that 'fontawesome' come last in the list of features as it inject
 Sometimes it's as simple as meeting a branding requirement. That's it. All it does it drop a logo onto the player. The CSS will need to be customized to match yout theme, most likely.
 
 ```js
-{ features: ['playpause','logo','fontawesome'] }
+{
+	features: ['playpause', 'logo', 'fontawesome'],
+	logo: { text: 'Hark', link: 'http://www.hark.com/' }
+}
 ```
 
 ```css

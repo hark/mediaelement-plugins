@@ -1,4 +1,11 @@
-// Replace Image Controls with FontAwesme
+/*!
+* mejs-feature-fontawesome.js
+* Replace Image Controls with Font Awesome for MediaElement.js.
+* http://www.hark.com/
+*
+* Copyright 2012, Hark.com (http://www.hark.com/)
+* Licensed under the MIT license.
+*/
 (function($){
   MediaElementPlayer.prototype.buildfontawesome = function(player, controls, layers, media){
     // Speed Up: Make elements and add their class the right way, but ugly.
