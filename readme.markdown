@@ -16,6 +16,30 @@ It's important that 'fontawesome' come last in the list of features as it inject
 ```
 
 ```css
+/* Start: Play/pause */
+.mejs-controls .mejs-play .icon-pause {
+	display: none;
+}
+.mejs-controls .mejs-pause button {
+	left: -2px !important;
+}
+.mejs-controls .mejs-pause .icon-play {
+	display: none;
+}
+/* End: Play/pause */
+
+/* Start: Mute/Volume */
+.mejs-controls .mejs-mute .icon-volume-off {
+	display: none;
+}
+.mejs-controls .mejs-unmute button {
+	left: -4px;
+}
+.mejs-controls .mejs-unmute .icon-volume-up {
+	display: none;
+}
+/* End: Mute/Volume */
+
 /* FontAwesome Buttons */
 .mejs-container .mejs-controls i {
 	display: block;
