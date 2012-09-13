@@ -21,7 +21,7 @@ It's important that 'fontawesome' come last in the list of features as it inject
 	display: none;
 }
 .mejs-controls .mejs-pause button {
-	left: -2px !important;
+	left: -2px;
 }
 .mejs-controls .mejs-pause .icon-play {
 	display: none;
