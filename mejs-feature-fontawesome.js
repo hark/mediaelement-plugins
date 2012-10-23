@@ -15,5 +15,5 @@
     $('.mejs-fullscreen-button button', controls).append('<i class="icon-fullscreen"></i>');
     $('.mejs-unfullscreen-button button', controls).append('<i class="icon-resize-small"></i>');
     $('.mejs-loop-button button', controls).append('<i class="icon-repeat"></i>');
-  }
+  };
 })(jQuery);
