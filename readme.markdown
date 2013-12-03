@@ -1,5 +1,7 @@
 # MediaElement.js Plugins
 
+Lasted tested and used with MediaElement v2.9.5.
+
 Using [MediaElement.js](http://mediaelementjs.com/) is really nice and easy but some things we needed just weren't there, so we wrote these plugins to fix that. Everything is provided under the [MIT License](http://opensource.org/licenses/mit-license.php).
 
 ![Example](https://raw.github.com/hark/mediaelement-plugins/master/example.png)  
