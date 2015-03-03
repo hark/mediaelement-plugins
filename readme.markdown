@@ -9,7 +9,7 @@ Using [MediaElement.js](http://mediaelementjs.com/) is really nice and easy but 
 
 ## Font Awesome UI Buttons
 
-[Font Awesome](http://fortawesome.github.com/Font-Awesome/) is an awesome pictograph font with all the features you exspect now in MediaElement.js.
+[Font Awesome](http://fortawesome.github.com/Font-Awesome/) is an awesome pictograph font with all the features you expect now in MediaElement.js.
 
 It's important that 'fontawesome' come last in the list of features as it injects the icons into the buttons. Supported buttons are Play / Pause, Stop, Mute / Unmute, Fullscreen / Unfullscreen and Loop.
 
